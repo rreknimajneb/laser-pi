@@ -16,3 +16,8 @@ Here is how it works so far.
 
 4) another script will re-combine this paint into a paint-only image.
    the pain-only image will be set to a different color (red) and sent to projector
+
+# http://raspberrypi.stackexchange.com/questions/8922/how-do-i-display-images-without-starting-x11
+# fbi -T 1 ./stripped/picture.jpg
+# apt-get install fbi
+# apt-get install fbset
